@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URL Shortner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Germania+One|Patua+One|Lobster|Germania+One|Pacifico|Dancing+Script|Amatic+SC|Mrs+Sheppards|Cinzel|Great+Vibes|Indie+Flower|Permanent+Marker|Courgette|Berkshire+Swash|Cookie|Damion|Homemade+Apple|Italianno|Itim|Leckerli+One|Marck+Script|Merienda|Mr+Dafoe|Norican|Parisienne|Petit+Formal+Script|Sacramento|Yellowtail|Yesteryear|B612+Mono|Cutive+Mono|Inconsolata|Major+Mono+Display|Roboto+Mono|Source+Code+Pro|VT323|Baloo+Chettan|Charm|Bungee+Inline|Cabin+Sketch|Ceviche+One|Codystar|Freckle+Face|Fredericka+the+Great|Frijole|Fugaz+One|Germania+One|Graduate|Iceberg|Katibeh|Knewave|Kranky|Libre+Barcode+39|Lobster+Two|Luckiest+Guy|Margarine|Monoton|Playball|Righteous|Special+Elite|Spirax|Uncial+Antiqua|Amiri|Anton|Crete+Round|Exo|Francois+One|Lora|Orbitron|Oswald|Ubuntu" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+
+	<header>
+		<!--HEADER CONTENT-->
+		<h1>URL Shortner</h1><hr>
+		<div class="content">
+			<span>Click on Link<br>To See Python Version</span>
+			<a href="#">https://stackoverflow.com/questions/486563/overflowhidden-dots-at-the-end</a>
+		</div>
+	</header>
+
+	<section>
+		<form action="JavaScript:void(0)">
+			<input type="url" id="url" name="url" placeholder="Paste your URL here...">
+			<span class="loading"><!-- LOADER LOADING --></span>
+			<input type="submit" name="submit" value="Get Short Url" onclick="shortUrl()">
+		</form>
+
+		<div class="output">
+			<!--OUTPUT SHORT URL-->
+			<textarea placeholder="Your Short Link Output..."></textarea>
+		</div>
+
+		<div class="txt"><!-- SUCCESS ERROR MESSAGE --></div>
+	</section>
+
+	<footer>
+		<!--FOOTER CONTENT-->
+		Coder: Shubham Verma.
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
