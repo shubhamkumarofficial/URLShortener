@@ -1,2 +1,1 @@
-# URLShortener
-URLShortener JSON API
+URL Shortener
